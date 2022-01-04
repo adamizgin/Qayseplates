@@ -405,6 +405,12 @@ p {
 
 
 
+@media screen and (max-width: 1300px) {
+	#product-section-background {
+		background-repeat: repeat-y;
+		background-size: contain;
+	}
+}
 
 @media screen and (max-width: 1000px) {
 	#information-section h2 {
