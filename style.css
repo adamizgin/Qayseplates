@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Public+Sans:wght@600&display=swap');
+
+* {
+	margin:  0;
+	padding: 0;
+	font-family: Helvetica, Arial, Sans-Serif;
+	color: #000;
+	outline: none;
+	box-sizing: border-box;
+}
+
+html, body {
+	background: #fff;
+	overflow-x: hidden;
+	width: 100vw;
+}
+
+.no-select {
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+p, li {
+	font-size: 18px;
+	margin: 0 0 10px 0;
+}
+
+h3 {
+	margin: 0 0 10px;
+}
+
+a {
+	color: #00f;
+}
+
+hr {
+	border: none;
+	border-bottom: 1px solid #0001;
+	margin: 15px 0;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#wrapper {
+	width: 100vw;
+	overflow-x: hidden;
+	position: absolute;
+	top: 95px;
+}
+
+.product-link {
+	text-decoration: none;
+}
+
+#header {
+	width: 100vw;
+	height: auto;
+	background-color: #a07030;
+	box-shadow: 0 0 10px 0 #0006;
+	position: fixed;
+	padding: 15px 0;
+	top: 0;
+	z-index: 4;
+}
+
+#header-background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url('images/wood-pattern.png');
+	z-index: -1;
+	opacity: 50%;
+}
+
+#header-right {
+	height: 100%;
+	position: absolute;
+	right: 15px;
+	top: 0;
+}
+
+#logo {
+	height: 65px;
+}
+
+#header img {
+	height: 65px;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0 10px 0 15px;
+}
+
+#logo-2 {
+	display: none!important;
+}
+
+#header h1 {
+	font-family: 'PT Sans Caption';
+	color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header-button {
+	height: 100%;
+    display: inline-block;
+    width: auto;
+    position: relative;
+    padding: 15px;
+    cursor: pointer;
+    background: transparent;
+    transition: all 150ms ease-in-out;
+}
+
+.header-button h3 {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    transition: 150ms ease-in-out;
+    text-shadow: 0 0 10px #000;
+}
+.header-button:hover h3 {
+	color: #000;
+	text-shadow: none;
+}
+.header-button:hover {
+	background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+	width: 100%;
+	padding: 30px;
+}
+
+#information-section {
+	height: 100vh;
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+}
+
+#information-background {
+	width: 100%;
+	height: 100%;
+	background-image: url('images/wooden_plates_background-1.jpg');
+	background-position: 50% 50%;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: brightness(0.25);
+}
+
+#information-section .center {
+	top: calc(50vh - 95px/2);
+	width: 100%;
+	text-align: center;
+}
+
+#information-section * {
+	color: #fff;
+}
+
+h2 {
+	font-size: 50px;
+	font-family: 'PT Sans Caption';
+}
+
+
+
+
+
+
+
+
+#see-products {
+	background: linear-gradient(-145deg, #ffd564, #ffe38c, #ffc204, #ffe081, #ffc612, #ffe289, #ffc309);
+	border: none;
+	padding: 15px 25px;
+	border-radius: 50px;
+	cursor: pointer;
+	margin-top: 50px;
+	box-shadow: 1px 1px 5px 0 #0005;
+	transition: all 200ms ease-in-out;
+}
+#see-products:hover {
+	box-shadow: 2px 2px 5px 0 #000a;
+	filter: brightness(1.1);
+}
+#see-products:active {
+	filter: brightness(0.85);
+}
+
+#see-products p {
+	line-height: normal;
+	margin: 0;
+	font-size: 20px;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h4 {
+	font-size: 40px;
+	font-family: 'Public Sans';
+	font-weight: 700;
+}
+p {
+	font-family: 'Helvetica';
+	font-weight: 400;
+	font-size: 22px;
+	margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#product-section {
+	min-height: calc(100vh - 155px);
+	position: relative;
+}
+
+#product-section-background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('images/wooden_plates_background-2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 35% 50%;
+	background-position-x: 35%;
+	background-position-y: 50%;
+	filter: brightness(0.35);
+	z-index: -1;
+}
+
+#product-section h2 {
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+#products-grid-wrapper {
+	width: 100%;
+	position: relative;
+	margin-top: 30px;
+
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.product-container {
+	background: #fff;
+	padding: 30px 15px 60px 15px;
+	position: relative;
+	box-shadow: 0 0 10px #0006;
+}
+.product-container * {
+	color: #333;
+	font-weight: 300;
+}
+
+.product-container h5 {
+	font-size: 30px;
+	text-align: center;
+}
+
+.product-container hr {
+	margin: 30px 0 30px;
+}
+
+.product-container img {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 30px;
+}
+
+.price-wrapper {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+}
+.price-wrapper span {
+	font-size: 20px;
+	margin: 0;
+	color: #000;
+	font-weight: 400;
+}
+.rabatt-price {
+	color: #e00!important;
+	font-weight: 600!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+	#information-section h2 {
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 950px) {
+	#products-grid-wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media screen and (max-width: 900px) {
+	#logo-1 {
+		display: none!important;
+	}
+	#logo-2 {
+		display: inline-block!important;
+	}
+}
+@media screen and (max-width: 830px) {
+	#information-section h2 {
+		font-size: 35px;
+	}
+	#see-products {
+		margin-top: 25px;
+	}
+	#more-info-section p {
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 700px) {
+	#information-section h2 {
+		font-size: 30px;
+	}
+	#see-products {
+		margin-top: 25px;
+	}
+
+	#products-grid-wrapper {
+		grid-template-columns: 1fr;
+	}
+	.product-container img {
+		width: 90%;
+	}
+
+	#header-right {
+		display: none;
+	}
+}
+@media screen and (max-width: 450px) {
+	#more-info-section p {
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 400px) {
+	#information-section .center {
+		width: 90%;
+	}
+}
+@media screen and (max-width: 360px) {
+	#information-section h2 {
+		font-size: 25px;
+	}
+	#see-products p {
+		font-size: 16px;
+	}
+}
