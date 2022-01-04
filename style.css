@@ -96,6 +96,7 @@ hr {
 	vertical-align: middle;
 	display: inline-block;
 	margin: 0 10px 0 15px;
+	filter: drop-shadow(0 0 5px #0008);
 }
 
 #logo-2 {
@@ -126,7 +127,7 @@ hr {
     transform: translateY(-50%);
     color: #fff;
     transition: 150ms ease-in-out;
-    text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px #0006;
 }
 .header-button:hover h3 {
 	color: #000;
